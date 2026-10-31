@@ -89,6 +89,15 @@ npx serve .
 
 ## Despliegue
 
+El repositorio está conectado a Vercel: **cada push a `main` despliega a producción solo**, y las
+ramas y los pull requests generan despliegues de vista previa.
+
+```bash
+git push
+```
+
+Para desplegar a mano sin pasar por git:
+
 ```bash
 npx vercel deploy --prod
 ```
