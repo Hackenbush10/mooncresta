@@ -342,6 +342,7 @@ function applyDockTest() {
 }
 function startDockTest() {
   infinite = true; dockLoop = 1; dockCycle = 0; extraGiven = true;
+  document.getElementById('padShield').style.display = 'none';   // aquí la barrera no pinta nada
   score = 0; round = 0; parts_ = []; pops = []; overT = 0;
   applyDockTest();
 }
